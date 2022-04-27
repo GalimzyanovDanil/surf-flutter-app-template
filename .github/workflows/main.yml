@@ -22,9 +22,6 @@ jobs:
       
       - name: Install dependencies
         run: flutter pub get
-          
-      - name: Run analyzer
-        run: flutter analyze --fatal-warnings --fatal-infos .
 
       - name: Run formatter
         run: flutter format --set-exit-if-changed .
